@@ -38,7 +38,7 @@ spec:
           mountPath: /models-cache
         name: app-model-service
         ports:
-        - containerPort: 8001
+        - containerPort: 8002
         securityContext:
           runAsNonRoot: true
       volumes:
