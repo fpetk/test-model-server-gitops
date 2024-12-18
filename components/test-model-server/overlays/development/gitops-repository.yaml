@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: test-model-server-gitops-repository
+spec:
+  url: https://github.com/fpetk/test-model-server-gitops
