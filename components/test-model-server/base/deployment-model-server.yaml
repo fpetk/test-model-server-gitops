@@ -27,7 +27,7 @@ spec:
             "--download-dir",
             "/models-cache",
             "--max-model-len",
-            "4096"]
+            "4097"]
         resources:
           limits:
             nvidia.com/gpu: '1'
